@@ -1,0 +1,12 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 25%;
+}
