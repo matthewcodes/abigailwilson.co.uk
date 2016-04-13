@@ -1,0 +1,23 @@
+{
+  "name": "abigailwilson.co.uk",
+  "homepage": "https://github.com/matthewcodes/abigailwilson.co.uk",
+  "authors": [
+    "Matthew Wilson <matt@mattcodes.co.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "packery": "~2.0.0",
+    "jquery": "~2.2.3"
+  }
+}
