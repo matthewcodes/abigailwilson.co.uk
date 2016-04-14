@@ -1,0 +1,140 @@
+html{
+  font-family: 'Muli', sans-serif;
+}
+.logo {
+  width:100%;
+}
+.logo-container {
+  width:40%;
+  float:left;
+}
+.links-container {
+  width:60%;
+  float:right;
+}
+.links {
+  margin-top: 20.1%;
+  float:right;
+  width:100%;
+}
+.links a {
+  padding-left:5%;
+  float:right;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  color: black;
+}
+
+.container {
+  width:80%;
+  margin:auto;
+}
+
+.links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color:#cba045;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.header {
+  height:20%;
+}
+.header-container {
+  width:80%;
+  margin:auto;
+}
+.grid {
+  width:80%;
+  margin:auto;
+  margin-bottom: 5%;
+}
+.grid-item {
+  width: 20%;
+}
+
+.grid-item:hover {
+  background-color:#f7ddd2;
+  background-blend-mode: multiply;
+}
+
+.grid-item-large-square {
+  width: 59%;
+  background-image: url('../img/mockup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-half-large-square {
+  width: 59%;
+  background-image: url('../img/invitation.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-small-pano {
+  width: 39%;
+  background-image: url('../img/ski.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-below-pano {
+  width: 39%;
+  background-image: url('../img/argory.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-small-square {
+  width: 39%;
+  background-image: url('../img/nix.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-small-square-birds {
+  width: 39%;
+  background-image: url('../img/birds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-engagement {
+  width: 59%;
+  background-image: url('../img/engagement.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-adele {
+  width: 39%;
+  background-image: url('../img/adele.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-boat {
+  width: 28.5%;
+  background-image: url('../img/shackletons.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-merchant {
+  width: 28.5%;
+  background-image: url('../img/merchant.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gutter-sizer {
+  width: 2%;
+}
