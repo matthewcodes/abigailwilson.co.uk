@@ -1,0 +1,63 @@
+html{
+  font-family: 'Muli', sans-serif;
+}
+.logo {
+  width:100%;
+}
+.logo-container {
+  width:40%;
+  float:left;
+}
+.links-container {
+  width:60%;
+  float:right;
+}
+.links {
+  margin-top: 20.1%;
+  float:right;
+  width:100%;
+}
+.links a {
+  padding-left:5%;
+  float:right;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  color: black;
+}
+
+.container {
+  width:80%;
+  margin:auto;
+}
+
+.links a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color:#cba045;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.header {
+  height:20%;
+}
+.header-container {
+  width:80%;
+  margin:auto;
+}

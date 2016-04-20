@@ -19,6 +19,7 @@
   "dependencies": {
     "packery": "~2.0.0",
     "jquery": "~2.2.3",
-    "imagesloaded": "~4.1.0"
+    "imagesloaded": "~4.1.0",
+    "flexslider": "~2.6.0"
   }
 }
