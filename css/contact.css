@@ -1,0 +1,13 @@
+h1 {
+  color:#cba045;
+  font-family: 'Arapey', serif !important;
+  font-style: italic;
+}
+
+a {
+  color:#cba045;
+}
+
+a:visited {
+  color:#917333;
+}
